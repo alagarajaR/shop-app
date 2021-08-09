@@ -6,6 +6,7 @@ class Badge extends StatelessWidget {
     required this.child,
     required this.value,
     this.color = Colors.red,
+    List<Widget?>? children,
   }) : super(key: key);
 
   final Widget child;
